@@ -40,3 +40,4 @@ class Var(object):
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1001362659779")).split()))     
     SHORTLINK_URL = getenv('SHORTLINK_URL', 'onepagelink.in')
     SHORTLINK_API = getenv('SHORTLINK_API', 'ce13f93b28d428b34ba037637621f576f4e3ca1d')
+    TUTORIAL_URL = getenv('TUTORIAL_URL', 't.me/dakimemek/42')
